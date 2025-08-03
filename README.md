@@ -2,41 +2,23 @@
 <html lang="ar">
 <head>
   <meta charset="UTF-8">
-  <title>By: L 7 N</title>
+  <title>صفحتي في GitHub</title>
   <style>
     body {
-      margin: 0;
-      padding: 0;
-      background: #000;
-      color: #fff;
-      font-family: Arial, sans-serif;
-      height: 100vh;
-      background-image: url('https://www.youtube.com/watch?v=euufEaKfjW0'); /* <-- غير الرابط هنا إذا عندك صورة */
-      background-size: cover;
-      background-position: center;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      flex-direction: column;
-      text-shadow: 0 0 10px #000;
+      text-align: center;
+      background-color: #f4f4f4;
+      font-family: sans-serif;
     }
-
-    h1 {
-      font-size: 48px;
-      margin: 20px;
-    }
-
-    audio {
-      display: none; /* يخفي المشغل */
+    img {
+      max-width: 80%;
+      height: auto;
+      margin-top: 50px;
+      border-radius: 12px;
     }
   </style>
 </head>
 <body>
-  <h1>By : L 7 N</h1>
-
-  <audio autoplay>
-    <source src="رابط-المقطع-هنا.mp3" type="audio/mpeg">
-    متصفحك لا يدعم تشغيل الصوت.
-  </audio>
+  <h1>By:L 7 N</h1>
+  <img src="my-image.jpg" alt="الصورة">
 </body>
 </html>
